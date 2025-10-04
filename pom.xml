@@ -34,7 +34,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.balugaq.jeg</groupId>
     <artifactId>JustEnoughGuide</artifactId>
-    <version>EN-21</version>
+    <version>EN-22</version>
 
     <pluginRepositories>
         <pluginRepository>
@@ -321,9 +321,9 @@
         <dependency>
             <groupId>io.github.sefiraat</groupId>
             <artifactId>EMCTech</artifactId>
-            <version>Build-8</version>
+            <version>c61222fb</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/EMCTech-Build 8.jar</systemPath>
+            <systemPath>${project.basedir}/lib/EMCTech.jar</systemPath>
         </dependency>
 
         <dependency>
@@ -333,7 +333,13 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/SlimeHUD-Build 16.jar</systemPath>
         </dependency>
-
+        <dependency>
+            <groupId>io.github.mooy1.infinityexpansion</groupId>
+            <artifactId>infinityexpansion</artifactId>
+            <version>9da3720</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/InfinityExpansion.jar</systemPath>
+        </dependency>
         <!-- AnvilGUI 1.16+ -->
         <dependency>
             <groupId>net.wesjd</groupId>

@@ -1,0 +1,209 @@
+icon:
+  # RTS
+  input-text:
+    name: '&fReal Time Search: &7Type text above'
+    lore:
+    - '&f참고:'
+    - '&7 - &e왼쪽 버튼은 뒤로 가기 버튼입니다.'
+    - '&7 - &e가운데 버튼은 페이지 위로 이동 버튼입니다.'
+    - '&7 - &e오른쪽 버튼은 페이지 아래로 이동 버튼입니다.'
+  
+  item-mark-background:
+    name: '&a&l아이템 수집'
+    lore:
+      - ''
+      - '&7좌클릭하여 아이템을 수집하세요!'
+  
+  usage-guide:
+    name: '&bJEG 사용 가이드'
+  
+  hidden-items:
+    name: '&b숨겨진 아이템'
+  nexcavate-items:
+    name: '&bNexcavate 아이템'
+  
+  guide:
+    real-time-search:
+      name: '&b실시간 검색'
+      lore:
+        - ''
+    special-menu:
+      name: '&b큰 레시피'
+      lore:
+        - ''
+        - '&a클릭하여 보기'
+    guide-group:
+      header:
+        name: '&bJEG 가이드'
+        lore:
+          - '&b작성자: balugaq'
+          - '&bJEG는 Slimefun의 가이드를 개선하여 더욱 인간 친화적이고 효율적으로 만들었습니다.'
+          - '&b다음 가이드를 참고하여 JEG의 향상된 기능을 시작하세요.'
+          - '&b이슈 트래커: https://github.com/balugaq/JustEnoughGuide/issues'
+          - '&b버그 신고 권장 언어: '
+          - '&b      영어'
+          - '&b      간체 중국어'
+          - '&b      번체 중국어'
+    feature-search-paging:
+      name: '&b기능: 검색 페이지 이동'
+      lore:
+        - '&b소개: 페이지를 넘겨 더 많은 검색 결과를 확인할 수 있습니다.'
+        - '&b클릭하여 시도해보세요!'
+    feature-bookmark-item:
+      name: '&b기능: 아이템 수집'
+      lore:
+        - '&b소개: 카테고리 보기에서 지원되는 애드온의 경우,'
+        - '&b      "책" 아이콘을 클릭하여 해당 카테고리의 아이템을 수집할 수 있습니다.'
+        - '&a      뒤로 가기 버튼을 클릭하여 종료하세요.'
+        - '&b클릭하여 시도해보세요!'
+    feature-view-bookmarked-items:
+      name: '&b기능: 수집한 아이템 보기'
+      lore:
+        - '&b소개: 수집한 아이템을 볼 수 있습니다.'
+        - '&b      "네더 스타" 아이콘을 클릭하여 수집한 아이템을 확인하세요.'
+        - '&a      뒤로 가기 버튼을 클릭하여 종료하세요.'
+        - '&b클릭하여 시도해보세요!'
+    feature-jump-category:
+      name: '&b기능: 카테고리 점프'
+      lore:
+      - '&b설명: 레시피를 볼 때, 간단한 클릭으로 재료의 카테고리로 이동할 수 있습니다.'
+      - '&b      예: Shift+왼쪽 클릭으로 재료 아이콘 클릭'
+      - '&b클릭하여 시도!'
+    feature-quick-research:
+      name: '&b기능: 빠른 연구'
+      lore:
+      - '&b설명: 어디서든 아이템을 연구할 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-smart-search:
+      name: '&b기능: 스마트 검색'
+      lore:
+      - '&b설명: 아이템의 이름을 검색하여 제조자를 찾을 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-search-expansion-by-recipe-item-name:
+      name: '&b기능: 검색 확장'
+      lore:
+      - '&b설명: 검색 범위를 제한하려면 텍스트 앞에 {flag}<recipe_item_name>을 붙이세요.'
+      - '&b      예: {flag}Battery 입력 시, 레시피에 "Battery"가 포함된 아이템 검색 가능'
+      - '&c      여러 확장 기능을 조합할 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-search-expansion-by-recipe-type-name:
+      name: '&b기능: 검색 확장'
+      lore:
+      - '&b설명: 검색 범위를 제한하려면 텍스트 앞에 {flag}<recipe_type_name>을 붙이세요.'
+      - '&b      예: {flag}crafting.table 입력 시, 레시피 타입 이름에 "crafting table"이 포함된 아이템 검색 가능'
+      - '&c      여러 확장 기능을 조합할 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-search-expansion-by-display-item-name:
+      name: '&b기능: 검색 확장'
+      lore:
+      - '&b설명: 검색 범위를 제한하려면 텍스트 앞에 {flag}<display_item_name>을 붙이세요.'
+      - '&b      예: {flag}copper.dust 입력 시, 레시피의 표시 아이템 이름에 "copper dust"가 포함된 아이템 검색 가능'
+      - '&c      여러 확장 기능을 조합할 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-search-expansion-by-addon-name:
+      name: '&b기능: 검색 확장'
+      lore:
+      - '&b설명: 검색 범위를 제한하려면 텍스트 앞에 {flag}<addon_name>을 붙이세요.'
+      - '&b      예: {flag}slimefun 입력 시, "Slimefun"에서 제공하는 아이템 검색 가능'
+      - '&c      여러 확장 기능을 조합할 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-search-expansion-by-item-name:
+      name: '&b기능: 검색 확장'
+      lore:
+      - '&b설명: 검색 범위를 제한하려면 텍스트 앞에 {flag}<item_name>을 붙이세요.'
+      - '&b      예: {flag}Battery 입력 시, 이름에 "Battery"가 포함된 아이템 검색 가능'
+      - '&c      여러 확장 기능을 조합할 수 있습니다.'
+      - '&b클릭하여 시도!'
+    feature-search-expansion-by-material-name:
+      name: '&b기능: 검색 확장'
+      lore:
+      - '&b설명: 검색 범위를 제한하려면 텍스트 앞에 {flag}<material_name>을 붙이세요.'
+      - '&b      예: {flag}iron 입력 시, 타입 이름에 "iron"이 포함된 아이템 검색 가능'
+      - '&c      여러 확장 기능을 조합할 수 있습니다.'
+      - '&b클릭하여 시도!'
+  
+  book-mark-button:
+    name: '&e&l수집됨'
+  item-mark-button:
+    name: '&e&l수집 중'
+
+debug:
+  debug-prefix: '&b[디버그] '
+
+message:
+  command:
+    help:
+      success:
+        - '&aJEG 명령어:'
+        - '&a/jeg help - 도움말 보기'
+        - '&a/jeg reload - JEG 플러그인 다시 로드'
+        - '&a/jeg cache <섹션> <키>'
+    reload:
+      start: '&aJEG 플러그인을 다시 로드 중...'
+      precheck-failed: '&c플러그인을 다시 로드하지 못했습니다.'
+      success: '&a플러그인이 다시 로드되었습니다.'
+      failed: '&c플러그인을 다시 로드하지 못했습니다.'
+    cache:
+      wrong-usage: '&c사용법: /jeg cache <섹션> <키>'
+      wrong-cache-section: '&c잘못된 섹션 번호입니다. 1 또는 2를 선택하세요.'
+      cache-cleared: '&a캐시 {section} 삭제됨.'
+      checking-cache: '{key}에 대한 캐시 {section} 확인 중...'
+      items-header: '&a아이템: '
+      items-format: '&a - {item_name}'
+      invalid-cache-key: '&c{key}에 대한 캐시가 유효하지 않습니다.'
+      valid-cache-key: '&a{key}에 대한 캐시가 유효합니다.'
+      cache-size: '&a캐시 크기: {size}'
+      word-set-size: '&a단어 세트 크기: {size}'
+    no-permission: '&c이 명령어를 사용할 권한이 없습니다.'
+    unknown-command: '&c알 수 없는 명령어입니다. /jeg help 입력'
+
+guide:
+  disabled-item: '&4&l이 Slimefun 아이템은 이 월드에서 비활성화되었습니다.'
+  locked-item: '&f{addon_name} - {category_name}에서 잠금 해제해야 합니다.'
+  no-permission: '&f권한 없음'
+  click-to-unlock: '&a> 클릭하여 잠금 해제'
+  cost: '&7비용: &b{cost} 레벨'
+  back-button-extra-lore:
+    - ''
+    - '&f좌클릭: &7이전 페이지로 이동'
+    - '&fShift + 좌클릭: &7메인 메뉴로 이동'
+  searching: '&b검색 중: {item_name}'
+  bookmark-title: 수집됨 - JEG
+  addon: '&8{symbol_block} &f{addon_name} - {category_name}'
+  unmark: '&e우클릭하여 수집 해제'
+  item-mark-title: 수집 중 - JEG
+  mark-item: '&e좌클릭하여 수집'
+  marked: '&a수집됨!'
+  
+  # RTS
+  rts-title: 여기에 아래에 텍스트를 입력하세요.
+
+startup:
+  null-mc-version: 마인크래프트 버전을 인식할 수 없습니다!
+  unknown-mc-version: 마인크래프트 버전을 인식할 수 없습니다!
+  mc-version-too-old: 마인크래프트 버전이 너무 오래되었습니다! 1.{recommended_major}.{recommended_minor} 이상을 사용하세요!
+  java-version-too-old: 자바 버전이 너무 오래되었습니다! 자바 {recommended_version} 이상을 사용하세요!
+  environment-check-failed: 환경 검사 실패!
+  integrating-other-plugins: 다른 플러그인과 통합 중...
+  hook-slimefun-translation: Slimefun 번역과 연결됨...
+  register-listeners: 리스너 등록 중...
+  register-commands: 명령어 등록 중...
+  register-commands-failed: 명령어 등록 실패!
+  enabled-guide-override: 가이드 오버라이드 활성화됨!
+  override-guide: 가이드 오버라이드 중...
+  replaced-survival-guide: 생존 가이드 교체됨!
+  not-replaced-survival-guide: 생존 가이드 교체되지 않음!
+  replaced-cheat-guide: 치트 가이드 교체됨!
+  not-replaced-cheat-guide: 치트 가이드 교체되지 않음!
+  loading-bookmark: 수집 그룹 로드 중...
+  loading-guide-group: 가이드 그룹 로드 중...
+  loaded-guide-group: 가이드 그룹 로드 완료!
+  enabled-jeg: JustEnoughGuide 활성화됨!
+
+error:
+  could-not-display-item-group: 아이템 그룹 {group}을 표시할 수 없습니다.
+  unknown-recipe: '&4이 레시피를 표시할 수 없습니다 :/'
+  internal-error: '&4내부 서버 오류가 발생했습니다. 관리자에게 알리고 콘솔을 확인하세요.'
+  error-occurred: 가이드에서 아이템을 표시하는 동안 오류가 발생했습니다.
+  item-error: JustEnoughGuide 가이드에서 아이템을 보는 동안 오류가 발생했습니다.
+  trying-fix-guide: '{player_name} 플레이어의 가이드를 복구 중...'
