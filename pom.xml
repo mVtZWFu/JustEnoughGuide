@@ -284,6 +284,13 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/original-LogiTech v1.0.4.jar</systemPath>
         </dependency>
+		<dependency>
+            <groupId>dev.sefiraat.netheopoiesis</groupId>
+            <artifactId>Netheopoiesis</artifactId>
+            <version>9d12cc6f</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/Netheopoiesis.jar</systemPath>
+        </dependency>
 
         <!-- Recipe Completable compatible -->
         <dependency>
@@ -336,10 +343,13 @@
         <dependency>
             <groupId>io.github.mooy1.infinityexpansion</groupId>
             <artifactId>infinityexpansion</artifactId>
-            <version>9da3720</version>
+            <version>9da37202</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/InfinityExpansion.jar</systemPath>
         </dependency>
+
+
+
         <!-- AnvilGUI 1.16+ -->
         <dependency>
             <groupId>net.wesjd</groupId>
